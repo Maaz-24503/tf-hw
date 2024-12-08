@@ -1,0 +1,24 @@
+# Terraform state files
+terraform.tfstate
+terraform.tfstate.*
+
+# Backup files
+*.backup
+
+# Terraform crash log files
+crash.log
+
+# Terraform lock file
+.terraform.lock.hcl
+
+# Terraform working directory
+.terraform/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+
+# OS generated files
+.DS_Store
+Thumbs.db
